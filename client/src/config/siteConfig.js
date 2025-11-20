@@ -1,7 +1,7 @@
 /**
  * Site Configuration
  * This file contains all configurable content for the website
- * Last updated: 2025-11-20T18:34:33.694Z
+ * Last updated: 2025-11-20T18:56:36.082Z
  */
 
 // contactInfo configuration
@@ -12,13 +12,15 @@ export const contactInfo = {
     phone: "6476437037",
     email: "emma@salesgenius.co",
     company: "Real Broker Ontario Ltd",
-    license: "RECO #84397152",
+    companyLogo: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763564146094-Outline 1.png",
+    companyAddress: "130 King Street West Suite 1900, Toronto, ON M5X 1E3",
+    license: "REALTOR",
     repo: "New-Listing-385"
   },
   social: {
     instagram: "https://www.instagram.com/northgroup_realestate",
     facebook: "https://www.facebook.com/northgrouprealestate/",
-    linkedin: "https://linkedin.com/company/executivehomesrealtyinc"
+    linkedin: ""
   }
 };
 
@@ -244,13 +246,13 @@ export const homeShowcaseSections = [
   },
   {
     id: "section3",
-    title: "$$4,024",
+    title: "4,024 sq ft",
     description: "Spacious living area with ample room for your lifestyle",
     image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570862747-006-23 Chestnut Hill, London, ON 06.jpg"
   },
   {
     id: "section4",
-    title: "$$1,199,900",
+    title: "$1,199,900",
     description: "",
     image: "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763570864258-007-23 Chestnut Hill, London, ON 07.jpg"
   }
@@ -354,9 +356,9 @@ export const neighborhoodStats = [
 
 // openHouseDetails configuration
 export const openHouseDetails = {
-  date: "11/22/2025",
-  startTime: "14:00",
-  endTime: "16:00",
+  date: "November 22, 2025",
+  startTime: "2:00",
+  endTime: "4:00",
   registerLink: "/openhouse",
   host: "Emma Pace",
   phone: "6476437037",
@@ -503,7 +505,7 @@ export const propertyFeatures = [
 export const siteBranding = {
   logoUrl: "/logo.svg",
   colors: {
-    primary: "#D9A566"
+    primary: "#FFCAE9"
   },
   footer: {
     copyrightText: "© 2024 23 Chestnut Hill. All rights reserved.",
@@ -525,8 +527,8 @@ export const siteMetadata = {
 
 // formAutomations configuration
 export const formAutomations = {
-  crmLeadParsingEmail: "",
-  sgApiKey: ""
+  crmLeadParsingEmail: "emma.pace2@followupboss.me",
+  sgApiKey: "api_cfdd629411f29f13202b12aa9489f337"
 };
 
 // formQuestions configuration
